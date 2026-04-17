@@ -26,7 +26,7 @@
 
         <div class="mt-10 flex flex-wrap gap-5 items-center">
             <a href="/projets"
-               class="bg-black text-white px-7 py-3.5 rounded-xl hover:bg-black/80 transition text-sm font-medium">
+               class="bg-[#2c1810] text-white px-7 py-3.5 rounded-xl hover:bg-[#eedbce]/80 hover:text-[#2c1810] transition text-sm font-medium">
                 Voir mes projets
             </a>
             <a href="/contact"
@@ -99,7 +99,7 @@
 
             <!-- Projet 2 -->
             <a href="/projets"
-               class="group relative overflow-hidden rounded-[28px] bg-zinc-900 text-white p-8 flex flex-col justify-between min-h-64 hover:shadow-md transition-shadow">
+               class="group relative overflow-hidden rounded-[28px] bg-[#2c1810] text-white p-8 flex flex-col justify-between min-h-64 hover:shadow-md transition-shadow">
                 <div>
                     <span class="text-xs bg-white/10 px-3 py-1 rounded-full text-white/60">Web · Laravel</span>
                     <h3 class="text-xl font-semibold mt-5">Coprism</h3>
@@ -148,22 +148,22 @@
 
     <!-- ─── CTA Contact ─── -->
     <section class="max-w-5xl mx-auto px-6 pb-32">
-        <div class="rounded-[32px] bg-black text-white p-12 md:p-16 text-center">
+        <div class="rounded-[32px] bg-[#2c1810] text-[#faf6f3] p-12 md:p-16 text-center">
+            <p class="text-xs uppercase tracking-[0.25em] text-[#faf6f3]/40 mb-4">Recruteurs & équipes</p>
 
-            <p class="text-xs uppercase tracking-[0.25em] text-white/35 mb-4">Recruteurs & équipes</p>
             <h2 class="text-3xl md:text-4xl font-semibold">Ouverte aux opportunités</h2>
-            <p class="mt-4 text-white/55 max-w-md mx-auto leading-relaxed text-sm">
-                Je recherche activement un poste de développeuse full-stack ou mobile —
+            <p class="mt-4 text-[#faf6f3]/60 max-w-md mx-auto leading-relaxed text-sm">
+            Je recherche activement un poste de développeuse full-stack ou mobile —
                 CDI, alternance ou stage. Si mon profil vous intéresse, j'adorerais échanger.
             </p>
 
             <div class="mt-8 flex flex-wrap gap-4 justify-center">
                 <a href="/contact"
-                   class="inline-block bg-white text-black px-8 py-4 rounded-xl font-medium hover:bg-white/90 transition text-sm">
+                   class="bg-[#e1c2ac] text-[#2c1810] px-8 py-4 rounded-xl font-medium hover:bg-[#eedbce] transition text-sm" >
                     Me contacter →
                 </a>
                 <a href="/cv/telecharger" target="_blank"
-                   class="inline-flex items-center gap-2 border border-white/20 text-white/80 hover:text-white hover:border-white/50 px-8 py-4 rounded-xl font-medium transition text-sm">
+                   class="inline-flex items-center gap-2 border border-[#faf6f3]/20 text-[#faf6f3]/70 hover:text-[#faf6f3] hover:border-[#faf6f3]/50 px-8 py-4 rounded-xl font-medium transition text-sm">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                     </svg>
