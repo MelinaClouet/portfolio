@@ -17,26 +17,22 @@ jobs:
           username: deploy
           password: ${{ secrets.VPS_PASSWORD }}
           script: |
+            echo "Deploying portfolio application..."
+            mkdir -p ~/.ssh
+            ssh-keyscan github.com >> ~/.ssh/known_hosts
+
             cd /var/www/portfolio
 
-            echo "🚀 Starting deployment..."
-            //display vps_password
-            echo "🔐 Using password: ${{ secrets.VPS_PASSWORD }}"
+            echo "Pulling latest changes from GitHub..."
 
-            echo "🔄 Pull latest code..."
             git fetch origin master
             git reset --hard origin/master
             git clean -fd
 
-            echo "📦 Backend install..."
             composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev
 
-            echo "🧹 Clear Laravel cache..."
-            php artisan optimize:clear
-
-            echo "🎨 Frontend build..."
             npm ci
             npm run build
 
-            echo "⚡ Re-cache Laravel..."
+            php artisan optimize:clear
             php artisan optimize
