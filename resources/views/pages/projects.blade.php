@@ -148,47 +148,66 @@
                 </div>
 
                 <div class="border-l-2 border-[#e1c2ac] pl-6 fade-in">
-
                     <p class="text-sm text-black/50 uppercase tracking-widest">
                         Expérience professionnelle
                     </p>
 
                     <h2 class="text-3xl font-semibold mt-2">
-                        Wevox - Développeuse full-stack
+                        Wevox - Développeuse Full-Stack
                     </h2>
 
                     <p class="mt-4 text-black/70 leading-relaxed">
-                        Participation au développement d’une solution SaaS, avec une implication
-                        full-stack et une forte dimension relation client.
+                        Participation au développement d’une solution SaaS en environnement agile,
+                        avec une implication sur l’ensemble de la stack (frontend & backend) et une
+                        forte dimension produit et relation client.
                     </p>
 
                     <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
 
                         <div>
+                            <p class="text-black font-medium">Contexte</p>
+                            <p class="text-black/60 mt-1">
+                                Travail sur une plateforme SaaS orientée expérience collaborateur,
+                                en collaboration avec une équipe produit et technique dans un cadre agile (Scrum).
+                            </p>
+                        </div>
+
+                        <div>
                             <p class="text-black font-medium">Rôle</p>
                             <p class="text-black/60 mt-1">
-                                Développement full-stack + support produit
+                                Développeuse full-stack impliquée sur les fonctionnalités front-end,
+                                les APIs backend, ainsi que la maintenance et l’évolution du produit.
                             </p>
                         </div>
 
                         <div>
-                            <p class="text-black font-medium">Client</p>
+                            <p class="text-black font-medium">Missions</p>
                             <p class="text-black/60 mt-1">
-                                Déplacements en séminaires et présentations produit
+                                Développement de nouvelles fonctionnalités, correction de bugs,
+                                optimisation des performances, et participation aux revues de code.
                             </p>
                         </div>
 
                         <div>
-                            <p class="text-black font-medium">Compétences</p>
+                            <p class="text-black font-medium">Relation client</p>
                             <p class="text-black/60 mt-1">
-                                API, frontend, relation client, démonstration produit
+                                Participation à des démonstrations produit, échanges avec les clients
+                                lors de séminaires et collecte de retours utilisateurs pour améliorer le produit.
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="text-black font-medium">Compétences utilisées</p>
+                            <p class="text-black/60 mt-1">
+                                API REST, développement frontend, UX, communication client, gestion de feedback utilisateur.
                             </p>
                         </div>
 
                         <div>
                             <p class="text-black font-medium">Impact</p>
                             <p class="text-black/60 mt-1">
-                                Amélioration de la compréhension client et adoption produit
+                                Contribution à l’amélioration de l’adoption produit et à une meilleure compréhension
+                                des besoins clients grâce aux retours terrain.
                             </p>
                         </div>
 
