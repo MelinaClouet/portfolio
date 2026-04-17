@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CvController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,3 +18,5 @@ Route::get('/a-propos', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+
+Route::get('/cv/telecharger', [CvController::class, 'download'])->name('cv.download');
