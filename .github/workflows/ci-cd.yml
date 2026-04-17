@@ -44,7 +44,7 @@ jobs:
         with:
           host: 185.98.137.247
           username: deploy
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          password: ${{ secrets.VPS_PASSWORD }}
           script: |
             cd /var/www/portfolio
 
