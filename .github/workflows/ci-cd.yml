@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
+      - name: Install Node dependencies
         run: npm ci
 
       - name: Build frontend
@@ -32,6 +32,9 @@ jobs:
 
       - name: Install Composer dependencies
         run: composer install --no-interaction --prefer-dist
+
+      - name: Run Laravel tests
+        run: php artisan test
 
   cd:
     name: Deploy to VPS
