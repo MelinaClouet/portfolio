@@ -36,7 +36,9 @@ jobs:
   cd:
     name: Deploy to VPS
     runs-on: ubuntu-latest
-    needs: ci   # 👈 IMPORTANT
+    needs: ci
+    if: contains(github.event.head_commit.message, '#deploy')
+
 
     steps:
       - name: Deploy via SSH
