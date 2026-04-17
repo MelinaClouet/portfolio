@@ -7,7 +7,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-white text-black antialiased relative">
+<body class="bg-red-800 text-black antialiased relative">
 <div class="fixed inset-0 -z-10">
     <div class="absolute top-[-200px] left-1/2 w-[600px] h-[600px] bg-[#eedbce]/40 blur-3xl rounded-full -translate-x-1/2"></div>
     <div class="absolute bottom-[-200px] right-[-100px] w-[500px] h-[500px] bg-[#e1c2ac]/30 blur-3xl rounded-full"></div>
