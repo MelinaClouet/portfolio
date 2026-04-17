@@ -19,14 +19,24 @@ jobs:
           script: |
             cd /var/www/portfolio
 
+            echo "🚀 Starting deployment..."
+            //display vps_password
+            echo "🔐 Using password: ${{ secrets.VPS_PASSWORD }}"
+
+            echo "🔄 Pull latest code..."
             git fetch origin master
             git reset --hard origin/master
             git clean -fd
 
-            composer install --no-interaction --prefer-dist --optimize-autoloader
+            echo "📦 Backend install..."
+            composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev
 
-            npm install
+            echo "🧹 Clear Laravel cache..."
+            php artisan optimize:clear
+
+            echo "🎨 Frontend build..."
+            npm ci
             npm run build
 
-            php artisan optimize:clear
+            echo "⚡ Re-cache Laravel..."
             php artisan optimize
