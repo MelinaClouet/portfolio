@@ -33,6 +33,15 @@ jobs:
       - name: Install Composer dependencies
         run: composer install --no-interaction --prefer-dist
 
+      - name: Set Laravel environment file
+        run: php -r "file_exists('.env') || copy('.env.example', '.env');"
+
+      - name: Generate application key
+        run: php artisan key:generate
+
+      - name: Optimize autoload
+        run: composer dump-autoload
+
       - name: Run Laravel tests
         run: php artisan test
 
@@ -41,7 +50,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: ci
     if: contains(github.event.head_commit.message, '#deploy')
-
 
     steps:
       - name: Deploy via SSH
@@ -53,12 +61,21 @@ jobs:
           script: |
             cd /var/www/portfolio
 
+            echo "🚀 Deploying portfolio..."
+
             git pull origin master
 
+            echo "📦 Installing backend..."
             composer install --no-dev --optimize-autoloader
 
+            echo "🎨 Building frontend..."
             npm ci
             npm run build
 
+            echo "🧹 Clearing Laravel cache..."
             php artisan optimize:clear
+
+            echo "⚡ Optimizing Laravel..."
             php artisan optimize
+
+            echo "✅ Deploy finished"
