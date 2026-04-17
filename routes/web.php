@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CvController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,5 +19,6 @@ Route::get('/a-propos', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 
 Route::get('/cv/telecharger', [CvController::class, 'download'])->name('cv.download');
