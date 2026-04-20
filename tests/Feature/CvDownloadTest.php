@@ -20,7 +20,7 @@ class CvDownloadTest extends TestCase
     {
         Storage::fake('local');
 
-        Storage::put('private/CV_Mélina.pdf', 'fake content');
+        Storage::put('private/CV_Melina.pdf', 'fake content');
 
         $response = $this->get('/cv/telecharger');
 
