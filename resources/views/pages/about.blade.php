@@ -7,23 +7,70 @@
         <div class="max-w-6xl mx-auto">
 
             <!-- Header -->
-            <div class="max-w-4xl">
-                <p class="text-sm text-black/50 uppercase tracking-[0.3em]">
-                    À propos de moi
-                </p>
+            <section class="py-24">
+                <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
 
-                <h1 class="text-4xl md:text-6xl font-semibold mt-4 leading-tight">
-                    Développeuse d’applications web & mobile,
-                    avec une vision orientée produit et management.
-                </h1>
+                    <!-- Texte -->
+                    <div>
 
-                <p class="mt-6 text-lg text-black/70 leading-relaxed">
-                    Passionnée par la conception de solutions digitales utiles,
-                    j’évolue entre développement technique, expérience utilisateur
-                    et gestion de projet avec l’ambition de prendre à terme des
-                    responsabilités de pilotage.
-                </p>
-            </div>
+                        <p class="text-sm text-black/50 uppercase tracking-[0.3em]">
+                            À propos de moi
+                        </p>
+
+                        <h1 class="text-4xl md:text-6xl font-semibold mt-4 leading-tight">
+                            Développeuse d’applications web & mobile,
+                            avec une vision orientée produit et management.
+                        </h1>
+
+                        <p class="mt-6 text-lg text-black/70 leading-relaxed">
+                            Passionnée par la conception de solutions digitales utiles,
+                            j’évolue entre développement technique, expérience utilisateur
+                            et gestion de projet avec l’ambition de prendre à terme des
+                            responsabilités de pilotage.
+                        </p>
+
+                        <!-- Boutons -->
+                        <div class="mt-8 flex flex-wrap gap-4">
+
+                            <a href="https://github.com/MelinaClouet"
+                               target="_blank"
+                               class="px-6 py-3 rounded-full border border-black/10 hover:bg-black hover:text-white transition">
+                                GitHub
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/mélina-clouet-858862273"
+                               target="_blank"
+                               class="px-6 py-3 rounded-full border border-black/10 hover:bg-black hover:text-white transition">
+                                LinkedIn
+                            </a>
+
+                            <a href="{{ route('cv.download') }}"
+                               class="px-6 py-3 rounded-full bg-black text-white hover:bg-black/80 transition">
+                                Télécharger CV
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Photo -->
+                    <div class="flex justify-center md:justify-end">
+
+                        <div class="relative">
+
+                            <div class="absolute inset-0 bg-black/5 rounded-[2rem] rotate-6"></div>
+                            <img
+                                src="{{ asset('files/Me.jpg') }}"
+                                alt="Photo Mélina Clouet"
+                                class="relative w-72 md:w-96 h-90 md:h-93 rounded-[2rem] object-cover shadow-xl"
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
 
             <!-- Main Layout -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16">
