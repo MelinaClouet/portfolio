@@ -51,7 +51,7 @@
             </div>
 
             <div class="rounded-[24px] bg-[#faf6f3] border border-black/5 p-7">
-                <p class="text-4xl font-semibold">3+</p>
+                <p class="text-4xl font-semibold">+3</p>
                 <p class="text-sm text-black/50 mt-2">Années de code</p>
             </div>
 
@@ -154,7 +154,7 @@
             <h2 class="text-3xl md:text-4xl font-semibold">Ouverte aux opportunités</h2>
             <p class="mt-4 text-[#faf6f3]/60 max-w-md mx-auto leading-relaxed text-sm">
             Je recherche activement un poste de développeuse full-stack ou mobile —
-                CDI, alternance ou stage. Si mon profil vous intéresse, j'adorerais échanger.
+                CDI ou CDD. Si mon profil vous intéresse, j'adorerais échanger.
             </p>
 
             <div class="mt-8 flex flex-wrap gap-4 justify-center">

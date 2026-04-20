@@ -8,7 +8,7 @@
         <h1 class="text-4xl md:text-5xl font-semibold text-black mb-4">Parlons-en</h1>
         <p class="text-black/55 max-w-md leading-relaxed text-sm mb-12">
             Je suis disponible pour un poste de développeuse full-stack ou mobile.
-            Remplis le formulaire et je te réponds sous 48h.
+            Remplisez le formulaire et je vous réponds sous 48h.
         </p>
 
         {{-- MESSAGE SUCCÈS --}}
