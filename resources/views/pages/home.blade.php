@@ -52,7 +52,7 @@
 
             <div class="rounded-[24px] bg-[#faf6f3] border border-black/5 p-7">
                 <p class="text-4xl font-semibold">+3</p>
-                <p class="text-sm text-black/50 mt-2">Années de code</p>
+                <p class="text-sm text-black/50 mt-2">Années d'expérience</p>
             </div>
 
             <div class="rounded-[24px] bg-[#faf6f3] border border-black/5 p-7">
@@ -86,7 +86,7 @@
                     <span class="text-xs bg-white/70 px-3 py-1 rounded-full text-black/60">Mobile · Flutter</span>
                     <h3 class="text-xl font-semibold mt-5">On Sort</h3>
                     <p class="text-sm text-black/55 mt-2 leading-relaxed">
-                        On Sort est une application mobile qui facilite la découverte d'activités et d'événements locaux en groupe. Que vous cherchiez une sortie entre amis, une activité en famille ou un rendez-vous romantique, On Sort vous propose des idées adaptées à vos envies et à votre localisation.
+                       <span class="font-semibold">On Sort</span>  est une application mobile qui facilite la découverte d'activités et d'événements locaux en groupe. Que vous cherchiez une sortie entre amis, une activité en famille ou un rendez-vous romantique, <span class="font-semibold">On Sort</span> vous propose des idées adaptées à vos envies et à votre localisation.
                     </p>
                 </div>
                 <div class="flex items-center gap-2 mt-6 text-sm font-medium text-black/60 group-hover:text-black transition">
