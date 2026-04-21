@@ -25,29 +25,48 @@
                 <!-- PROJECT -->
                 <div class="border-l-2 border-[#e1c2ac] pl-6 fade-in">
 
-                    <p class="text-sm text-black/50 uppercase tracking-widest">
-                        Plateforme RH / SaaS
-                    </p>
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
 
-                    <h2 class="text-3xl font-semibold mt-2">
-                        Coprism
-                    </h2>
+                        <!-- GAUCHE : texte -->
+                        <div>
+                            <p class="text-sm text-black/50 uppercase tracking-widest">
+                                Plateforme RH / SaaS
+                            </p>
 
-                    <!-- LINK -->
-                    <div class="mt-2">
-                        <a href="https://www.coprism.com/"
-                           target="_blank"
-                           class="text-sm text-[#e1c2ac] hover:text-black transition underline underline-offset-4">
-                            Voir le site →
-                        </a>
+                            <h2 class="text-3xl font-semibold mt-2">
+                                Coprism
+                            </h2>
+
+                            <div class="mt-2">
+                                <a href="https://www.coprism.com/"
+                                   target="_blank"
+                                   class="text-sm text-[#e1c2ac] hover:text-black transition underline underline-offset-4">
+                                    Voir le site →
+                                </a>
+                            </div>
+
+                            <p class="mt-4 text-black/70 leading-relaxed">
+                                Coprism est une plateforme RH utilisée par des entreprises (dont MMA),
+                                composée d'une application web, d'une application mobile et d'une API.
+                                Elle permet la gestion et la centralisation des processus RH et des échanges
+                                entre collaborateurs et services internes.
+                            </p>
+                        </div>
+
+                        <!-- DROITE : image -->
+                        <div class="relative max-w-60 my-3 mx-auto group rounded-2xl transition-shadow duration-700 hover:shadow-lg">
+                            <img
+                                src="/files/coprism.png"
+                                alt="Aperçu de Coprism"
+                                class="w-full h-auto object-top rounded-sm transition-transform duration-700 ease-in-out group-hover:-translate-y-1"
+                            />
+                            <div class="absolute inset-0 bg-black/0 group-hover:transition-colors duration-500 rounded-2xl"></div>
+                            <div class="absolute inset-x-0 top-0 h-px bg-white/40"></div>
+                            <div class="mt-4 absolute right-2 bg-white/100 backdrop-blur-sm text-[10px] uppercase tracking-widest text-black/40 px-2 py-1 rounded-sm">
+                                Interface mobile
+                            </div>
+                        </div>
                     </div>
-
-                    <p class="mt-4 text-black/70 leading-relaxed">
-                        Coprism est une plateforme RH utilisée par des entreprises (dont MMA),
-                        composée d’une application web, d’une application mobile et d’une API.
-                        Elle permet la gestion et la centralisation des processus RH et des échanges
-                        entre collaborateurs et services internes.
-                    </p>
 
                     <!-- DETAILS -->
                     <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
@@ -91,26 +110,47 @@
 
                 <div class="border-l-2 border-[#e1c2ac] pl-6 fade-in">
 
-                    <p class="text-sm text-black/50 uppercase tracking-widest">
-                        Application mobile
-                    </p>
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
 
-                    <h2 class="text-3xl font-semibold mt-2">
-                        OnSort
-                    </h2>
+                        <!-- GAUCHE : texte -->
+                        <div>
+                            <p class="text-sm text-black/50 uppercase tracking-widest">
+                                Application mobile
+                            </p>
 
-                    <div class="mt-2">
-                        <a href="https://on-sort.fr/"
-                           target="_blank"
-                           class="text-sm text-[#e1c2ac] hover:text-black transition underline underline-offset-4">
-                            Voir le site →
-                        </a>
+                            <h2 class="text-3xl font-semibold mt-2">
+                                OnSort
+                            </h2>
+
+                            <div class="mt-2">
+                                <a href="https://on-sort.fr/"
+                                   target="_blank"
+                                   class="text-sm text-[#e1c2ac] hover:text-black transition underline underline-offset-4">
+                                    Voir le site →
+                                </a>
+                            </div>
+
+                            <p class="mt-4 text-black/70 leading-relaxed">
+                                Application mobile permettant à des groupes d'utilisateurs de voter
+                                pour des activités et de prendre des décisions collectives de manière simple et rapide.
+                            </p>
+                        </div>
+
+                        <!-- DROITE : image -->
+                        <div class="relative max-w-60 my-3 mx-auto group rounded-2xl transition-shadow duration-700 hover:shadow-lg">
+                            <img
+                                src="/files/onSort.png"
+                                alt="Aperçu de Coprism"
+                                class="w-full h-auto object-top rounded-sm transition-transform duration-700 ease-in-out group-hover:-translate-y-1"
+                            />
+                            <div class="absolute inset-0 bg-black/0 group-hover:transition-colors duration-500 rounded-2xl"></div>
+                            <div class="absolute inset-x-0 top-0 h-px bg-white/40"></div>
+                            <div class="mt-4 absolute right-2 bg-white/100 backdrop-blur-sm text-[10px] uppercase tracking-widest text-black/40 px-2 py-1 rounded-sm">
+                                Interface mobile
+                            </div>
+                        </div>
+
                     </div>
-
-                    <p class="mt-4 text-black/70 leading-relaxed">
-                        Application mobile permettant à des groupes d’utilisateurs de voter
-                        pour des activités et de prendre des décisions collectives de manière simple et rapide.
-                    </p>
 
                     <!-- DETAILS -->
                     <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
@@ -118,7 +158,7 @@
                         <div>
                             <p class="text-black font-medium">Contexte</p>
                             <p class="text-black/60 mt-1">
-                                Projet startup d’école visant à faciliter le choix d’activités entre amis.
+                                Projet startup d'école visant à faciliter le choix d'activités entre amis.
                             </p>
                         </div>
 
@@ -139,7 +179,7 @@
                         <div>
                             <p class="text-black font-medium">Stack</p>
                             <p class="text-black/60 mt-1">
-                                Flutter, API Reset (Node.js), géolocalisation
+                                Flutter, API REST (Node.js), géolocalisation
                             </p>
                         </div>
 
